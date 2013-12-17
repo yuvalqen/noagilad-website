@@ -19,31 +19,6 @@
 	background-image: url('/images/header_pane.jpg');
 	height: 346px;
 	overflow: visible;
-
-	.social_flags_header_img {
-		top: 0px;
-		left: 30px;
-	}
-
-	.logo_header_img {
-		top: 50px;
-		left: 450px;
-	}
-
-	.black_separator {
-		width: 80px;
-		height: 5px;
-		background-color: black;
-		position: absolute;
-		left: 440px;
-		top: 180px;
-	}
-
-	.tagline_img {
-		left: 333px;
-		top: 200px;
-	}
-
 }
 
 .pin_icon_img {
@@ -64,6 +39,11 @@
 .about_us_pane {
 	background-image: url('/images/about_us_pane.jpg');
 	height: 495px;
+	.ron_photo {
+		left: 700px;
+		top: 80px;
+	}
+
 }
 
 .how_does_it_work_pane {
