@@ -1,0 +1,77 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+#content {
+	width: 960px;
+	position: relative;
+	margin: auto;
+	img {
+		position:absolute;
+	}
+}
+
+.pane {
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.header_pane {
+	background-image: url('/images/header_pane.jpg');
+	height: 346px;
+	overflow: visible;
+
+	.social_flags_header_img {
+		top: 0px;
+		left: 30px;
+	}
+
+	.logo_header_img {
+		top: 50px;
+		left: 450px;
+	}
+
+	.black_separator {
+		width: 80px;
+		height: 5px;
+		background-color: black;
+		position: absolute;
+		left: 440px;
+		top: 180px;
+	}
+
+	.tagline_img {
+		left: 333px;
+		top: 200px;
+	}
+
+}
+
+.pin_icon_img {
+	left: 462px;
+	top: 328px;
+}
+
+.intro_pane {
+	background-image: url('/images/intro_pane.jpg');
+	height: 374px;
+}
+
+.down_arrow_icon_img {
+	left: 465px;
+	top: 708px;
+}
+
+.about_us_pane {
+	background-image: url('/images/about_us_pane.jpg');
+	height: 495px;
+}
+
+.how_does_it_work_pane {
+	background-image: url('/images/how_does_it_work_pane.jpg');
+	height: 512px;
+}
+
+.contact_us_pane {
+	background-image: url('/images/contact_us_pane.jpg');
+	height: 491px;
+}
