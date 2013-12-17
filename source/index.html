@@ -2,6 +2,8 @@
 layout: default
 ---
 
+
+
 <div class="header_pane pane">
 </div>
 <div class="intro_pane pane">
@@ -9,14 +11,21 @@ layout: default
 <div class="about_us_pane pane">
   <img class="yuval_photo" src="images/yuval_photo.png">
   <img class="ron_photo" src="images/ron_photo.png">
-  <img class="yuval_linkedin_icon" src="images/linkedin_icon.png">
-  <img class="ron_linkedin_icon" src="images/linkedin_icon.png">
+  <a href="http://il.linkedin.com/in/yuvalc/" target="_blank"><img class="yuval_linkedin_icon" src="images/linkedin_icon.png"></a>
+  <a href="http://www.linkedin.com/pub/ron-oren/29/7b8/418" target="_blank"><img class="ron_linkedin_icon" src="images/linkedin_icon.png"></a>
 </div>
 <div class="how_does_it_work_pane pane">
-Test
 </div>
 <div class="contact_us_pane pane">
-Test
+{% google_form 1hmIxfuOBwtJBujJFnH62M76ZBFk3y7GaDJJ3kBs4eNM Thank you. We'll get back to you shortly %}
 </div>
 <img class="pin_icon_img" src="images/pin_icon.png">
 <img class="down_arrow_icon_img" src="images/down_arrow_icon.png">
+
+<script>
+$(function() {
+  $("#entry_1389203845").attr("placeholder", "Name");
+  $("#entry_1662602458").attr("placeholder", "Email");
+  $("#entry_842420310").attr("placeholder", "Your thoughts...");
+});
+</script>
