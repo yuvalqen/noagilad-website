@@ -13,6 +13,7 @@
 .pane {
 	background-size: 100% 100%;
 	position: relative;
+	font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
 }
 
 .header_pane {
@@ -29,6 +30,21 @@
 .intro_pane {
 	background-image: url('/images/intro_pane.jpg');
 	height: 374px;
+
+	.intro_title {
+		position: absolute; top: 41px; left: 331px; width: 300px;
+		color: rgb(255,221, 20);
+		text-align: center;
+		font-size: 1.5em;
+		line-height: 1.2em;
+	}
+
+	.intro_text {
+		position: absolute; top: 136px; left: 245px; width: 470px;
+		color: rgb(255,221, 20);
+		text-align: justify;
+		line-height: 1.2em;
+	}
 }
 
 .down_arrow_icon_img {
@@ -49,7 +65,8 @@
 	}
 
 	.yuval_text {
-		position: absolute; top: 272px; left: 98px; text-align: right; width: 335px;
+		position: absolute; top: 272px; left: 98px; width: 335px;
+		text-align: justify; text-align-last: right;
 	}
 
 	.ron_title {
@@ -61,7 +78,7 @@
 	}
 
 	.ron_text {
-		position: absolute; top: 301px; left: 526px; text-align: left; width: 335px;
+		position: absolute; top: 301px; left: 526px; text-align: justify; width: 335px;
 	}
 
 	.ron_photo {
@@ -93,6 +110,15 @@
 .contact_us_pane {
 	background-image: url('/images/contact_us_pane.jpg');
 	height: 491px;
+
+	.copyright_text {
+		border-top: solid 1px;
+		position: absolute;
+		top: 460px;
+		left: 595px;
+		color: rgb(227, 227, 227);
+		font-size: 0.7em;
+	}
 }
 
 
