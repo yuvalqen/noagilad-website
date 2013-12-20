@@ -1,6 +1,10 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+#main {
+	background-color: rgb(98,130,143);
+}
+
 #content {
 	width: 960px;
 	position: relative;
@@ -13,13 +17,31 @@
 .pane {
 	background-size: 100% 100%;
 	position: relative;
-	font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
-}
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
 
+	.social_flags_container {
+	 	position: absolute;
+
+	 	.social_flag {
+	 		width: 20px;
+	 		height: 20px;
+	 		margin: 3px;
+	 	}
+	 }
+
+ }
+
+ 
 .header_pane {
 	background-image: url('/images/header_pane.jpg');
 	height: 346px;
 	overflow: visible;
+
+	.social_flags_container {
+		top: 23px;
+	 	left: 45px;
+	}
 }
 
 .pin_icon_img {
@@ -37,6 +59,7 @@
 		text-align: center;
 		font-size: 1.5em;
 		line-height: 1.2em;
+		font-weight: bold;
 	}
 
 	.intro_text {
@@ -56,8 +79,17 @@
 	background-image: url('/images/about_us_pane.jpg');
 	height: 495px;
 
+	.full_name {
+		font-size: 1.4em;
+	}
+
+	.title {
+		font-size: 0.9em;
+	}
+
 	.yuval_title {
 		position: absolute;	top: 188px;	left: 160px; text-align: right; width: 273px;	
+		font-weight: bold;
 	}
 
 	.yuval_brief {
@@ -67,10 +99,12 @@
 	.yuval_text {
 		position: absolute; top: 272px; left: 98px; width: 335px;
 		text-align: justify; text-align-last: right;
+		line-height: 1.1em;
 	}
 
 	.ron_title {
 		position: absolute;	top: 217px;	left: 526px; text-align: left; width: 273px;	
+		font-weight: bold;
 	}
 
 	.ron_brief {
@@ -79,6 +113,7 @@
 
 	.ron_text {
 		position: absolute; top: 301px; left: 526px; text-align: justify; width: 335px;
+		line-height: 1.1em;
 	}
 
 	.ron_photo {
@@ -119,6 +154,12 @@
 		color: rgb(227, 227, 227);
 		font-size: 0.7em;
 	}
+
+	.social_flags_container {
+		top: 40px;
+	 	left: 572px;
+	}
+
 }
 
 
