@@ -1,58 +1,69 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-#main {
-	background-color: rgb(98,130,143);
-}
-
 #content {
-	width: 960px;
-	position: relative;
-	margin: auto;
-	img {
-		position:absolute;
-	}
+	width: 100%;
+	min-width: 960px;
 }
 
 
 .pane {
-	background-size: 100% 100%;
 	position: relative;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
+	background-repeat: repeat;
+	background-position:center;
 
 	.social_flags_container {
 	 	position: absolute;
 
 	 	.social_flag {
-	 		width: 20px;
-	 		height: 20px;
-	 		margin: 3px;
+	 		width: 24px;
+	 		height: 24px;
+	 		margin: 4px;
 	 	}
 	 }
 
  }
 
+.pane_content {
+	width: 960px;
+	margin: auto;
+	height: 100%;
+	position: relative;
+	img {
+		position:absolute;
+	}
+}
  
 .header_pane {
 	background-image: url('/images/header_pane.jpg');
-	height: 346px;
+	height: 700px;
 	overflow: visible;
 
-	.social_flags_container {
-		top: 23px;
-	 	left: 45px;
+	.intro_spotlight {
+		left: 245px;
 	}
-}
 
-.pin_icon_img {
-	left: 462px;
-	top: 328px;
+	.header_airplane {
+		top: 352px;
+		left: 540px;
+	}
+
+	.header_social_flags {
+		left: 173px;
+		height: 178px;
+	}
+
+	.social_flags_container {
+		top: 30px;
+	 	left: 191px;
+	}
 }
 
 .intro_pane {
 	background-image: url('/images/intro_pane.jpg');
-	height: 374px;
+	height: 579px;
 
 	.intro_title {
 		position: absolute; top: 41px; left: 331px; width: 300px;
@@ -69,16 +80,21 @@
 		text-align: justify;
 		line-height: 1.2em;
 	}
-}
 
-.down_arrow_icon_img {
-	left: 465px;
-	top: 708px;
+	.down_arrow_icon {
+		left: 460px;
+		top: 440px;
+	}
 }
 
 .about_us_pane {
 	background-image: url('/images/about_us_pane.jpg');
-	height: 495px;
+	height: 653px;
+
+	.about_is_lines {
+		top: 174px;
+		left: 95px;
+	}
 
 	.full_name {
 		font-size: 1.4em;
@@ -89,77 +105,94 @@
 	}
 
 	.yuval_title {
-		position: absolute;	top: 188px;	left: 160px; text-align: right; width: 273px;	
+		position: absolute;	top: 239px;	left: 195px; text-align: right; width: 273px;	
 		font-weight: bold;
 	}
 
 	.yuval_brief {
-		position: absolute;	top: 219px;	left: 98px;	text-align: right; width: 273px;	
+		position: absolute;	top: 270px;	left: 133px;	text-align: right; width: 273px;	
 	}
 
 	.yuval_text {
-		position: absolute; top: 272px; left: 98px; width: 335px;
+		position: absolute; top: 323px; left: 133px; width: 335px;
 		text-align: justify; text-align-last: right;
 		line-height: 1.1em;
 	}
 
 	.ron_title {
-		position: absolute;	top: 217px;	left: 526px; text-align: left; width: 273px;	
+		position: absolute;	top: 278px;	left: 534px; text-align: left; width: 273px;	
 		font-weight: bold;
 	}
 
 	.ron_brief {
-		position: absolute;	top: 248px;	left: 590px; text-align: left; width: 273px;	
+		position: absolute;	top: 309px;	left: 598px; text-align: left; width: 273px;	
 	}
 
 	.ron_text {
-		position: absolute; top: 301px; left: 526px; text-align: justify; width: 335px;
+		position: absolute; top: 362px; left: 534px; text-align: justify; width: 335px;
 		line-height: 1.1em;
 	}
 
 	.ron_photo {
-		left: 700px;
-		top: 80px;
+		left: 706px;
+		top: 110px;
 	}
 
 	.yuval_photo {
-		left: 95px;
-		top: 40px;
+		left: 85px;
+		top: 74px;
 	}
 
 	.ron_linkedin_icon {
-		top: 145px;
-		left: 630px;
+		top: 196px;
+		left: 637px;
 	}
 
 	.yuval_linkedin_icon {
-		top: 103px;
-		left: 295px; 
+		top: 160px;
+		left: 318px; 
+	}
+
+	.pirate_icon {
+		top: 270px;
+		left: 421px;
+	}
+	.ninja_icon {
+		top: 308px;
+		left: 535px;
 	}
 }
 
 .how_does_it_work_pane {
 	background-image: url('/images/how_does_it_work_pane.jpg');
-	height: 512px;
+	background-size: 174px;
+	height: 663px;
+
+	.how_does_it_work_content {
+		left: 93px;
+	}
 }
 
 .contact_us_pane {
-	background-image: url('/images/contact_us_pane.jpg');
-	height: 491px;
+	height: 653px;
+	background-color: rgb(69,121,142);
 
 	.copyright_text {
 		border-top: solid 1px;
 		position: absolute;
-		top: 460px;
-		left: 595px;
+		top: 618px;
+		left: 35px;
 		color: rgb(227, 227, 227);
 		font-size: 0.7em;
 	}
 
-	
+	.pane_content {
+		background-image: url('/images/contact_us_pane.jpg');
+		height: 100%;
+	}	
 	.social_flags_container {
-		top: 40px;
-	 	left: 572px;
+		top: 58px;
+	 	left: 549px;
 	}
 }
 
@@ -173,11 +206,11 @@
 
 .google-form-wrapper {
 	position: absolute;
-	left: 50px;
-	top: 120px;
+	left: 70px;
+	bottom: 89px;
 
   .error {
-    color: red;
+	color: rgb(255,221, 20);
     font-size: 12px;
   }
   .errorbox-good {
@@ -197,7 +230,7 @@
       display: block;
       padding: 5px;
       color: white;
-      width: 410px;
+      width: 360px;
       font: inherit;
       border: 0;
       background-color: rgba(0, 71, 100, .5);
@@ -209,7 +242,7 @@
 
     }
     textarea {
-      width: 410px;
+      width: 360px;
       color: white;
       padding: 5px;
       font: inherit;
