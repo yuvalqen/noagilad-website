@@ -9,7 +9,6 @@
 
 .pane {
 	position: relative;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
 	background-repeat: repeat;
 	background-position:center;
@@ -66,24 +65,25 @@
 	height: 579px;
 
 	.intro_title {
-		position: absolute; top: 41px; left: 331px; width: 300px;
+		position: absolute; top: 41px; left: 245px; width: 470px;
 		color: rgb(255,221, 20);
-		text-align: center;
-		font-size: 1.5em;
+		text-align: left;
+		font-size: 3em;
 		line-height: 1.2em;
-		font-weight: bold;
+		font-family: impact;
 	}
 
 	.intro_text {
-		position: absolute; top: 136px; left: 245px; width: 470px;
+		position: absolute; top: 236px; left: 245px; width: 470px;
 		color: rgb(255,221, 20);
 		text-align: justify;
-		line-height: 1.2em;
+		line-height: 1.4em;
+		font-family: arial;
 	}
 
 	.down_arrow_icon {
 		left: 460px;
-		top: 440px;
+		top: 490px;
 	}
 }
 
@@ -105,38 +105,42 @@
 	}
 
 	.yuval_title {
-		position: absolute;	top: 239px;	left: 195px; text-align: right; width: 273px;	
-		font-weight: bold;
+		position: absolute;	top: 221px;	left: 195px; text-align: right; width: 273px;	
+		font-family: impact;
 	}
 
 	.yuval_brief {
-		position: absolute;	top: 270px;	left: 133px;	text-align: right; width: 273px;	
+		position: absolute;	top: 275px;	left: 133px;	text-align: right; width: 273px;	
+		font-family: arial;
 	}
 
 	.yuval_text {
 		position: absolute; top: 323px; left: 133px; width: 335px;
 		text-align: justify; text-align-last: right;
 		line-height: 1.1em;
+		font-family: arial;
 	}
 
 	.ron_title {
-		position: absolute;	top: 278px;	left: 534px; text-align: left; width: 273px;	
-		font-weight: bold;
+		position: absolute;	top: 260px;	left: 534px; text-align: left; width: 273px;	
+		font-family: impact;
 	}
 
 	.ron_brief {
-		position: absolute;	top: 309px;	left: 598px; text-align: left; width: 273px;	
+		position: absolute;	top: 314px;	left: 598px; text-align: left; width: 273px;	
+		font-family: arial;
 	}
 
 	.ron_text {
 		position: absolute; top: 362px; left: 534px; text-align: justify; width: 335px;
 		line-height: 1.1em;
+		font-family: arial;
 	}
 
 	.ron_photo {
 		left: 706px;
 		top: 110px;
-		width: 202px;
+		width: 202px; 
 	}
 
 	.yuval_photo {
