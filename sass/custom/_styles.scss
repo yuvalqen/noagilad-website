@@ -128,7 +128,7 @@
 
 	.ron_brief {
 		position: absolute;	top: 314px;	left: 598px; text-align: left; width: 273px;	
-		font-family: arial;
+		font-family: arial; 
 	}
 
 	.ron_text {
@@ -203,8 +203,19 @@
 
 .thank_you_pane {
 	background-image: url('/images/thank_you_pane.jpg');
-	height: 491px;	
+	height: 100%;
+	width: 100%;
+	position: absolute;
 	display: none;
+
+	.thank_you_text {
+		top: 200px;
+		left: 100px;
+		position: absolute;
+		width: 400px;
+		font-family: impact;
+		color: rgb(255,221, 20);
+	}
 }
 
 
