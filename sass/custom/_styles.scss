@@ -273,7 +273,7 @@
     }
   }
   .ss-navigate input {
-    width: auto;
+    width: auto; 
     cursor: pointer;
   }
 
@@ -286,6 +286,11 @@
 		  	text-indent:-9999px;
 		  	width: 89px;
 		  	height: 29px;
+		  }
+
+		  #ss-submit:hover {
+		  	background-image: url('/images/launch_button_hover.png');
+		  	background-size: 100% 100%;	  
 		  }
   }
 }
