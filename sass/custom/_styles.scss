@@ -34,6 +34,7 @@
 		height: 100%;
 
 		font-size: 1.3em;
+		line-height: 1.3em;
 
 		.page_title {
 			text-align: center;
@@ -80,7 +81,8 @@
 
 
 .google-form-wrapper {
-	
+	margin-left: 90px;
+
   .error {
 	color: rgb(255,221, 20);
     font-size: 12px;
@@ -101,7 +103,7 @@
     input {
       display: block;
       padding: 5px;
-      margin: 0px auto;
+
       color: white;
       width: 360px;
       font: inherit;
