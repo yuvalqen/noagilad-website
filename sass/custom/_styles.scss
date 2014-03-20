@@ -3,7 +3,7 @@
 
 #content {
 	width: 100%;
-	min-width: 540px;
+	min-width: 600px;
 }
 
 .pane {
@@ -14,7 +14,7 @@
  }
 
 .pane_content {
-	width: 540px;
+	width: 600px;
 	margin: auto;
 	height: 100%;
 	position: relative;
@@ -62,33 +62,25 @@
 }
 
 .thank_you_pane {
-	background-image: url('/images/thank_you_pane.jpg');
-	height: 100%;
-	width: 100%;
-	position: absolute;
 	display: none;
-
+ 
 	.thank_you_text {
-		top: 200px;
-		left: 100px;
-		position: absolute;
-		width: 400px;
-		font-family: impact;
-		color: rgb(255,221, 20);
+	margin: 161px 0px;
+	text-align: center;
+	font-size: 1.5em;
 	}
 }
-
+ 
 
 
 .google-form-wrapper {
-	margin-left: 90px;
+	margin-left: 120px;
 
   .error {
-	color: rgb(255,221, 20);
-    font-size: 12px;
+  color: red;
   }
   .errorbox-good {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .required-message, .ss-secondary-text, .ss-q-title, .error-message {
   	display: none; 
@@ -101,56 +93,41 @@
       display:block;
     }
     input {
-      display: block;
+      display: inline;
       padding: 5px;
-
-      color: white;
+      direction: rtl;
+ 
+      color: black;
       width: 360px;
       font: inherit;
-      border: 2px solid rgba(0,0,0,0.4);
-      background-color: rgba(253, 241, 214, .5);
-
+      border: 1px solid rgba(0,0,0,0.4);
+      background-color: rgba(253, 241, 214, .2);
+ 
       -moz-border-radius: 5px;
       -webkit-border-radius: 5px;
       -khtml-border-radius: 5px;
       border-radius: 5px;
 
-    }
-    textarea {
-      width: 360px;
-      color: white;
-      margin: 0px auto;
-      padding: 5px;
-      font: inherit;
-      border: 2px solid rgba(0,0,0,0.4);
-      background-color: rgba(253, 241, 214, .5);
-      resize: none;
-
-      -moz-border-radius: 5px;
-      -webkit-border-radius: 5px;
-      -khtml-border-radius: 5px;
-      border-radius: 5px;
     }
   }
   .ss-navigate input {
     width: auto; 
     cursor: pointer;
+    display: block;
   }
 
   #navigation-table {
-  	float: right;
+  	margin-right: 240px;
 
-		  #ss-submit {
-		  	background-image: url('/images/launch_button.png');
-		  	background-color: rgba(0, 0, 0, 0);
-		  	text-indent:-9999px;
-		  	width: 89px;
-		  	height: 29px;
-		  }
+	  #ss-submit {
+	    background-color: rgb(253, 241, 214);
+	  	width: 120px;
+	  	height: 39px;
+	  }
 
-		  #ss-submit:hover { 
-		  	background-image: url('/images/launch_button_hover.png');
-		  	background-size: 100% 100%;	  
-		  }
+	  #ss-submit:hover { 
+	  	background-image: url('/images/launch_button_hover.png');
+	  	background-size: 100% 100%;	  
+	  }
   }
 }
