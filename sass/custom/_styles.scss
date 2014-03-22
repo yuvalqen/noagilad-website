@@ -22,7 +22,7 @@
 		position:absolute;
 	}
 }
- 
+
 .main_pane {
 	height: 653px;
 	background-color: white; 
@@ -109,6 +109,7 @@
       border-radius: 5px;
 
     }
+
   }
   .ss-navigate input {
     width: auto; 
@@ -130,4 +131,16 @@
 	  	background-size: 100% 100%;	  
 	  }
   }
+}
+
+input[type=checkbox] {width:20px; height:20px;}
+
+.spam_checkbox {
+	width: 370px;
+	margin-right: 110px;
+	margin-bottom: 10px;
+
+	.error {
+	display: none;
+	}
 }
