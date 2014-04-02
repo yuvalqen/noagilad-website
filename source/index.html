@@ -1,45 +1,229 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+	<head>
+		<title>Event - Landing Page</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<div dir="rtl" class="main_pane pane">
-  <div class="pane_content">
-    <div class="page_title">
-      כנס מצו"ב לדורותיו
-    </div>
+		<!--== CSS Files ==-->
+		<link href="stylesheets/bootstrap.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/style.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/animate.min.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/font-awesome.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/owl.carousel.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/flexslider.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/fancySelect.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/responsive.css" rel="stylesheet" media="screen">
 
-    <p>יחידת מצו"ב קיימת שנים רבות ועברה מספר רב של גלגולים.</p>
-    <p>בוגרי היחידה הקימו חברות רבות ומכהנים בתפקידים בכירים בתעשיה, אבל אף פעם לא התכנסנו כדי להיווכח בכל העשייה.</p>
-    <p>בואו להיפגש עם חבריכם מתחילת הדרך המקצועית, עם בוגרי יחידה שיצאו לדרכים שונות ועם מפקדי היחידה בעבר ובהווה, אך לכולם מכנה משותף אחד, נקודת ההתחלה.</p>
-    <p>הכנס יערך ב-11 למאי בשעה 19:00 בערב בגוש דן (מיקום מדויק ימסר בהמשך במייל).</p>
-    <p>למה אפשר לצפות?
-      <ul>
-        <li>ארוחת ערב צנועה למי שמגיע ישירות מהעבודה.</li>
-        <li>היסטוריית היחידה, מה קרה בעשורים האחרונים?</li>
-        <li>נטוורקינג עם בוגרי יחידה וותיקים וצעירים כאחד.</li>
-        <li>פאנל עם בוגרי מצו"ב מבכירי התעשיה (אבי ברגר, יוסי סעד, שאול שוחט ודורון קורץ)</li>
-      </ul>
-    </p>
-    <p>הירשמו מטה ונשלח לכם פרטים ועידכונים לגבי הכנס:</p>
-    {% google_form 1hC39wFjtlCYOk4JE-jtTg_cg6Mc1HWVwaaMpzi6riSg תודה רבה. הפרטים נקלתו. %}
-    <div class="thank_you_pane pane">
-      <div class="thank_you_text">
-        <p>הפרטים נרשמו במערכת.</p>
-        </p>
-      </div>
-    </div>
-    <p>עיזרו לנו להגיע לכמה שיותר בוגרי יחידה והפיצו את הכנס לבוגרי יחידה נוספים!</p>
-    <p>לשאלות ובקשות בקשר לכנס ניתן לפנות ל-netanelbi@gmail.com.</p>
-</div>
+		<!--== Google Fonts ==-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
 
-<script>
-$(function() {
-  $("#entry_726016134, #entry_69732260, #entry_299863815").after("<span> * </span>");
-  $("#entry_726016134").attr("placeholder", "שם");
-  $("#entry_69732260").attr("placeholder", "אימייל");
-  $("#entry_1839848786").attr("placeholder", "טלפון");
-  $("#entry_709127847").attr("placeholder", "מקום עבודה");
-  $("#entry_785022346").attr("placeholder", "תפקיד");
-  $("#entry_299863815").attr("placeholder", "שנת שירות אחרונה ביחידה");
-});
-</script>
+	</head>
+	<body>
+		<header id="header">
+			<div id="menu" class="header-menu fixed">
+				<div class="container box">
+					<div class="row">
+						<nav role="navigation" class="col-sm-12">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+
+								<!--== Logo ==-->
+								<span class="navbar-brand logo">
+									<span class="fa fa-map-marker"></span> כנס מצו”ב לדורותיו
+								</span>
+
+							</div>
+							<div class="navbar-collapse collapse">
+
+								<!--== Navigation Menu ==-->
+								<ul class="nav navbar-nav">
+									<li><a href="#register">הירשם</a></li>
+									<li class="current"><a href="#header">דף הבית</a></li>
+								</ul>
+
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+
+			<!--== Site Description ==-->
+
+			<div class="header-bg">
+				<div id="preloader">
+					<div class="preloader"></div>
+				</div>
+				<div class="main-slider" id="main-slider">
+
+					<!--== Main Slider ==-->
+					<ul class="slides">
+						<li><img src="images/matzov_logo.jpg" alt="Slide Image"/></li>
+						<!--<li><img src="images/demo/bg-slide-02.jpg" alt="Slide Image 2"/></li>-->
+					</ul>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="content">
+			<div class="container box">
+
+				<!--===============================-->
+				<!--== Features ===================-->
+				<!--===============================-->
+				<section id="features" class="row">
+					<div class="col-md-3 col-xs-6">
+						<div class="event-info">
+							<div class="icon fa fa-map-marker"></div>
+							<div class="info">
+								<h3>גוש דן</h3>
+								<span>מיקום מדוייק יימסר בהמשך</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6"></div>
+					<div class="col-md-3 col-xs-6">
+						<div class="event-info">
+							<div class="icon fa fa-calendar"></div>
+							<div class="info">
+								<h3>2014, 11 במאי</h3>
+								<span>בשעה 19:00</span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--==========-->
+
+				<!--===============================-->
+				<!--== Image Slider ===============-->
+				<!--===============================-->
+				<section id="image-slider" class="row">
+					<div class="col-md-12 col-sm-12">
+						<h3>מבוא
+						<h4>
+                        יחידת מצו”ב קיימת שנים רבות ועברה מספר רב של גלגולים.
+                        בוגרי היחידה הקימו חברות רבות ומכהנים בתפקידים בכירים בתעשיה, אבל אף פעם לא התכנסנו כדי להיווכח בכל העשייה.
+                        בואו להיפגש עם חבריכם מתחילת הדרך המקצועית, עם בוגרי יחידה שיצאו לדרכים שונות ועם מפקדי היחידה בעבר ובהווה, אך לכולם מכנה משותף אחד, נקודת ההתחלה.
+                        </h4>
+					</div>
+				</section>
+				<!--==========-->
+
+
+				<div class="tab-content">
+								<div class="tab-pane active" id="tab1">
+									<ul class="accordion-group">
+									    <li class="accordion">
+									        <a class="accordion-heading">
+									        	<h4 class="accordion-title">ארוחת ערב צנועה למי שמגיע ישירות מהעבודה</h4>
+									        	<span class="fa fa-arrow-circle-o-left pull-right"></span>
+									        </a>
+									    </li>
+									    <li class="accordion">
+									        <a class="accordion-heading">
+									        	<h4 class="accordion-title">היסטוריית היחידה, מה קרה בעשורים האחרונים?</h4>
+									        	<span class="fa fa-arrow-circle-o-left pull-right"></span>
+									        </a>
+									    </li>
+									    <li class="accordion">
+									        <a class="accordion-heading">
+									        	<h4 class="accordion-title">נטוורקינג עם בוגרי יחידה וותיקים וצעירים כאחד</h4>
+									        	<span class="fa fa-arrow-circle-o-left pull-right"></span>
+									        </a>
+									    </li>
+									    <li class="accordion">
+									        <a class="accordion-heading">
+									        	<h4 class="accordion-title">פאנל עם בוגרי מצו”ב מבכירי התעשיה (אבי ברגר, יוסי סעד, שאול שוחט ודורון קורץ)</h4>
+									        	<span class="fa fa-arrow-circle-o-left pull-right"></span>
+									        </a>
+									    </li>
+
+									</ul>
+								</div>
+				</div>
+
+
+				<!--===============================-->
+				<!--== Register ===================-->
+				<!--===============================-->
+				<section id="register" class="row">
+					<div class="col-sm-12">
+						<div class="section-header text-center">
+							<h2>הרשמה</h2>
+							<h4>הירשמו מטה ונשלח לכם פרטים ועידכונים לגבי הכנס:</h4>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<form id="register-form" method="post" class="form">
+							<div class="col-md-2 col-sm-6">
+								<input name="name" id="name" type="text" placeholder="שנת שירות אחרונה" required>
+							</div>
+							<div class="col-md-2 col-sm-6">
+								<input name="position" id="position" type="text" placeholder="תפקיד" required>
+							</div>
+							<div class="col-md-2 col-sm-6">
+								<input name="workplace" id="workplace" type="text" placeholder="מקום עבודה">
+							</div>
+							<div class="col-md-2 col-sm-6">
+								<input name="telephone" id="telephone" type="number" placeholder="טלפון">
+							</div>
+							<div class="col-md-2 col-sm-6">
+								<input name="email" id="email" type="email" placeholder="אימייל" novalidate>
+							</div>
+							<div class="col-md-2 col-sm-6">
+								<input name="name" id="name" type="text" placeholder="שם">
+							</div>
+							<div class="col-md-12 col-sm-12">
+								<input type="submit" value="הירשם" name="submit">
+							</div>
+							<p class="form-notification" style="display: none;">Registration Complete</p>
+						</form>
+					</div>
+				</section>
+				<!--==========-->
+
+				<div id="gotop" class="gotop fa fa-arrow-up"></div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div id="map_canvas"></div>
+			
+			<div class="footer">
+				<div class="container box">
+
+					<section id="info" class="row">
+						<div class="col-sm-12 col-md-12 text-center">
+							<div class="copyrights">
+								All Rights Reserved. © 2014
+							</div>
+						</div>
+					</section>
+
+				</div>
+			</div>
+		</footer>
+
+		<!--== Javascript Files ==-->
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script src="javascripts/jquery-2.1.0.min.js"></script>
+		<script src="javascripts/bootstrap.min.js"></script>
+		<script src="javascripts/jquery.scrollTo.js"></script>
+		<script src="javascripts/jquery.nav.js"></script>
+		<script src="javascripts/owl.carousel.min.js"></script>
+		<script src="javascripts/jquery.flexslider.js"></script>
+		<script src="javascripts/jquery.accordion.js"></script>
+		<script src="javascripts/jquery.placeholder.js"></script>
+		<script src="javascripts/jquery.fitvids.js"></script>
+		<script src="javascripts/gmap3.js"></script>
+		<script src="javascripts/fancySelect.js"></script>
+		<script src="javascripts/main.js"></script>
+
+	</body>
+</html>
