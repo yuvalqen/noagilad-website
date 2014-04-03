@@ -1,6 +1,51 @@
-<hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
-  {% if site.subtitle %}
-    <h2>{{ site.subtitle }}</h2>
-  {% endif %}
-</hgroup>
+<!-- header -->
+<header id="header">
+	<div id="menu" class="header-menu fixed">
+		<div class="container box">
+			<div class="row">
+				<nav role="navigation" class="col-sm-12">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<!--== Logo ==-->
+						<span class="navbar-brand logo">
+							<span class="fa fa-map-marker"></span> כנס מצו”ב לדורותיו
+						</span>
+
+					</div>
+					<div class="navbar-collapse collapse">
+
+						<!--== Navigation Menu ==-->
+						<ul class="nav navbar-nav">
+							<li><a href="#register">הירשם</a></li>
+							<li class="current"><a href="#header">דף הבית</a></li>
+						</ul>
+
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<!--== Site Description ==-->
+
+	<div class="header-bg">
+		<div id="preloader">
+			<div class="preloader"></div>
+		</div>
+		<div class="main-slider" id="main-slider">
+
+			<!--== Main Slider ==-->
+			<ul class="slides">
+				<li><img src="images/matzov_logo.jpg" alt="Slide Image"/></li>
+				<!--<li><img src="images/demo/bg-slide-02.jpg" alt="Slide Image 2"/></li>-->
+			</ul>
+
+		</div>
+	</div>
+</header>
