@@ -822,6 +822,10 @@ Social Icons =======*/
 
 /*--------------------
 Forms ==============*/
+#form-wrapper {
+	background: #efefef;
+}
+
 .form {
 	position: relative;
 	float: left;
