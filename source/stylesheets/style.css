@@ -822,6 +822,27 @@ Social Icons =======*/
 
 /*--------------------
 Forms ==============*/
+
+/* Google Forms */
+.thank_you_pane {
+	display: none;
+}
+
+.thank_you_text {
+	margin: 161px 0px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.googleform-wrapper, .required-message, .ss-secondary-text, .ss-q-title, .error-message, .success-msg {
+  	display: none; 
+ }
+
+.ss-form-entry input {
+ 	direction: rtl;
+ }
+
+ /* end */
 #form-wrapper {
 	background: #efefef;
 }
