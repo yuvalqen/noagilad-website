@@ -826,13 +826,13 @@ Social Icons =======*/
 /*--------------------
 Forms ==============*/
 
-#help_us_find {
-	text-align: center;
-}
-
 /* Google Forms */
 .thank_you_pane {
 	display: none;
+	text-align: center;
+}
+
+#help_us_find {
 	text-align: center;
 }
 
@@ -880,7 +880,7 @@ Forms ==============*/
 Go Top =============*/
 div.gotop {
 	position: absolute;
-	bottom: -35px;
+	bottom: 390px;
 	left: 50%;
 	width: 7rem;
 	height: 7rem;
@@ -893,6 +893,7 @@ div.gotop {
 	color: #BBBAC0;
 	text-align: center;
 	cursor: pointer;
+	z-index: 50;
 }
 
 .gotop:hover {
