@@ -9,7 +9,7 @@
 
         // Launch Functions
         Launch: function () {
-            fn.GoogleMaps();
+            //fn.GoogleMaps();
             fn.MenuSticky();
             fn.MainSlider();
             fn.MainSliderAlign();
