@@ -576,7 +576,9 @@ Accordion ==========*/
 	padding-top: 20px;
 }
 
-
+#contact-question {
+	margin-left: 5px;
+}
 
 /*--------------------
 Speaker's ==========*/
@@ -663,6 +665,7 @@ Speaker's ==========*/
 
 /*--------------------
 Video ==============*/
+/*
 .video {
 	position: relative;
 	padding: 20px;
@@ -678,6 +681,7 @@ Video ==============*/
 	left: 0;
 	z-index: 5;
 }
+*/
 
 
 
@@ -822,15 +826,14 @@ Social Icons =======*/
 /*--------------------
 Forms ==============*/
 
+#help_us_find {
+	text-align: center;
+}
+
 /* Google Forms */
 .thank_you_pane {
 	display: none;
-}
-
-.thank_you_text {
-	margin: 161px 0px;
 	text-align: center;
-	font-size: 1.5em;
 }
 
 .googleform-wrapper, .required-message, .ss-secondary-text, .ss-q-title, .error-message, .success-msg {
