@@ -551,7 +551,6 @@ Accordion ==========*/
 	right: 0;
 	font-size: 3rem;
 	line-height: 4rem;
-	cursor: pointer;
 }
 
 .accordion.active span.fa-plus-circle:before {
