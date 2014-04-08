@@ -126,16 +126,18 @@
 			});
 		},
 		
+		// this function calculates and returns the nearest section for the given window position
 		getSection: function(windowPos) {
 			var returnValue = null;
-			var windowHeight = Math.round(this.$win.height() * this.config.scrollThreshold);
-
-			for(var section in this.sections) {
-				if((this.sections[section] - windowHeight) < windowPos) {
+			var smallestDiff = Number.MAX_VALUE;
+			var currentDiff = Number.MAX_VALUE;
+			for (var section in this.sections) {
+				currentDiff = Math.abs(windowPos - this.sections[section]);
+				if (currentDiff < smallestDiff) {
+					smallestDiff = currentDiff;
 					returnValue = section;
 				}
 			}
-			
 			return returnValue;
 		},
 		

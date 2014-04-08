@@ -260,7 +260,39 @@
     };
 
     $(document).ready(function () {
+
+        // jquery reverse plugin
+        $.fn.reverse = [].reverse;
+
+        // this function fixes bootstrap right-to-left navigation order for max-width below 991px
+        var adjustNav = function() {
+
+            // reverse list items
+            var navItems = $('#nav-items li');
+            var navItemsRev = navItems.reverse();
+            $('#nav-items li').remove()
+            $('#nav-items').append(navItemsRev);
+
+            // call the jquery.nav.js plugin
+            fn.Navigation();
+        }
+
+        // create media query
+        var maxWidth991px = window.matchMedia("(max-width: 991px)");
+
+        // if current max width is below 992px - fix navigation order
+        if (maxWidth991px.matches) {
+            adjustNav();
+        }
+
+        // add this function as a listener
+        maxWidth991px.addListener(function() {  
+            adjustNav();
+        });
+
+
         fn.Launch();
+
     });
 
 })(jQuery);
