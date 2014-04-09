@@ -37,9 +37,9 @@ module Jekyll
 
     def render(context)
       if @formhtml
-        html = '<div class="google-form-wrapper">'
+        html = '<div class="google-form-wrapper form-horizontal">'
         html += "<p class='success-msg'>#{@message}</p>"
-        html += @formhtml
+        html = @formhtml
         html += '</div>'
       else
         "Error processing input, expected syntax: {% google_form formkey [message] %}"
