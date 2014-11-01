@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Matzov Alumni]]></title>
-  <link href="http://www.noagilad.com//atom.xml" rel="self"/>
-  <link href="http://www.noagilad.com//"/>
-  <updated>2014-11-01T11:56:16+02:00</updated>
-  <id>http://www.noagilad.com//</id>
+  <link href="http://noagilad.com//github/atom.xml" rel="self"/>
+  <link href="http://noagilad.com//github/"/>
+  <updated>2014-11-01T12:05:49+02:00</updated>
+  <id>http://noagilad.com//github/</id>
   <author>
     <name><![CDATA[Yuval Qen]]></name>
     

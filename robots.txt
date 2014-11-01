@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://www.noagilad.com//sitemap.xml 
+Sitemap: http://noagilad.com//github/sitemap.xml 
