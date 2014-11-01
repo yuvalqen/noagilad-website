@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://matzov-alumni.com//github
+url: http://noagilad.com//github
 title: Matzov Alumni
 subtitle: 
 author: Yuval Qen
@@ -94,7 +94,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: UA-49025535-1
+google_analytics_tracking_id: 
 
 # Facebook Like
 facebook_like: false
