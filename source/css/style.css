@@ -121,8 +121,8 @@ h1 {
 	font-size:33px;
 	line-height:1.5em;
 	text-align:center;
-	margin-bottom:10px;
-	margin-top: 20px;
+	margin-bottom:45px;
+	margin-top: 45px;
 	letter-spacing:1px;
 }
 
@@ -725,9 +725,9 @@ span.required{ color: #d8450b; padding-left:3px; font: normal 14px 'Open Sans', 
 }
 .controls a:hover { color:#555; }
 .liquid-responsive .liquid-slider .panel .panel-wrapper {
-	font-size:12px;
+	font-size:14px;
 	min-height: 200px;
-	line-height:1.7em;
+	line-height:1.9em;
 	color:#777;
 	font-weight:normal;
 }
