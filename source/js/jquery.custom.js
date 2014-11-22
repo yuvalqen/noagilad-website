@@ -45,7 +45,7 @@ $('form.form-horizontal').submit(function() {
 		if ( thehref == '#intro' ) {
 			$.scrollTo( 0, 800 );
 		} else {
-			$.scrollTo( thehref, 800, {offset:-95} );
+			$.scrollTo( thehref, 800, {offset:-25} );
 		}
 		return false;
 	});
