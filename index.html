@@ -558,21 +558,36 @@
       {
         $('#map_canvas').gmap(
         {
-          'center': '51.514274,-0.156521',
+          'center': '32.17,34.899055',
           'scrollwheel': false
         });
         $('#map_canvas').gmap('option', 'mapTypeId', google.maps.MapTypeId.ROADMAP);
         $('#map_canvas').gmap('addMarker',
         {
           'foo': 'bar',
-          'position': '51.514274,-0.156521'
+          'position': '32.2104575,34.899055'
         });
         $('#map_canvas').gmap('addMarker',
         {
           'foo': 'bar',
-          'position': '32.1596314,34.9745672'
+          'position': '32.141719, 34.790588'
         });
-        $('#map_canvas').gmap('option', 'zoom', 16);
+        $('#map_canvas').gmap('addMarker',
+        {
+          'foo': 'bar',
+          'position': '32.1006595,34.8797319'
+        });
+        $('#map_canvas').gmap('addMarker',
+        {
+          'foo': 'bar',
+          'position': '32.1863165,34.8798043'
+        });
+        $('#map_canvas').gmap('addMarker',
+        {
+          'foo': 'bar',
+          'position': '32.1597982,34.9743849'
+        });
+        $('#map_canvas').gmap('option', 'zoom', 11);
       });
     </script>
   <script>
