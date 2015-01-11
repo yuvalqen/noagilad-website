@@ -854,3 +854,9 @@ and (min-width: 240px) and (max-width: 767px) {
 address ul li i {
 	margin: 5px;
 }
+
+span.faq_question {
+	display: block;
+	font-weight: bold;
+}
+
