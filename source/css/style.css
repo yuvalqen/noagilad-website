@@ -67,11 +67,10 @@ a img:hover {
 /* Misc */
 section { margin:0px auto 0 auto; padding:20px 0!important }
 .container { margin:0px auto; }
-#about{	margin-top:42px; }
+#about{	margin-top:32px; }
 .icons { list-style-type: none;  margin-left: 0px; }
 i { margin-right: 5px; }
 ul {list-style-type:none; }
-#galleria{width:100%; }
 
 .well {
 	background-color: #fff!important;
@@ -860,3 +859,22 @@ span.faq_question {
 	font-weight: bold;
 }
 
+#about h1 { 
+	margin: 0px;
+	padding: 40px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#about h1::after {
+  content: "";
+  background: url('../images/noa_gilad_hero_image.jpg');
+  background-size: 100% 130%;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
