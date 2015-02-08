@@ -127,7 +127,7 @@ h1 {
 	letter-spacing:1px;
 }
 
-h2 { font-size:26px; margin-bottom:10px; }
+h2 { font-size:26px; margin-bottom:10px; color:#55AD75; font-weight: bold; text-align:center; margin-top: 45px;}
 h3 { font-size:24px; margin-bottom:15px; }
 h4 { font-size:22px; margin-bottom:5px; }
 h5 { font-size:20px; margin-bottom:10px; }
@@ -879,3 +879,30 @@ span.faq_question {
   position: absolute;
   z-index: -1;   
 }
+
+.top_profile_pic {
+	border:1px solid #;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;  	
+	height: 38px;
+	margin-top: -9px;
+	margin-bottom: -9px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+.contact_us_profile_pic {
+	border:1px solid #;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	height: 90px;	
+	margin: 7px;
+}
+
+.tumblr_events ol { list-style: none;}
+.tumblr_events .tumblr_photo_post { float: left; border: 1px solid rgba(0, 0, 0, 0.1); background: white; padding: 6px;}
+.tumblr_events .tumblr_photo_post .tumblr_caption { text-align: center; }
+.tumblr_events .tumblr_photo_post .tumblr_caption p { margin-bottom: 0px; }
+.tumblr_events .tumblr_text_post { text-align: right; direction: rtl; }
