@@ -901,8 +901,11 @@ span.faq_question {
 	margin: 7px;
 }
 
-.tumblr_events ol { list-style: none;}
+.tumblr_blog ol, .tumblr_events ol { list-style: none;}
 .tumblr_events .tumblr_photo_post { float: left; border: 1px solid rgba(0, 0, 0, 0.1); background: white; padding: 6px;}
 .tumblr_events .tumblr_photo_post .tumblr_caption { text-align: center; }
 .tumblr_events .tumblr_photo_post .tumblr_caption p { margin-bottom: 0px; }
 .tumblr_events .tumblr_text_post { text-align: right; direction: rtl; }
+
+.tumblr_blog .tumblr_text_post { border: 1px solid rgba(0, 0, 0, 0.1); background: white; padding: 20px; margin-bottom: 40px;}
+.tumblr_blog .tumblr_title { font-size: 2em; margin-bottom: 20px;}
