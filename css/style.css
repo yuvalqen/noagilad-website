@@ -911,6 +911,7 @@ span.faq_question {
 
 .company_logo {
 	max-height: 87px;
+	max-width: 250px;
   -webkit-box-shadow: 5px 5px 10px 2px #222;
   -moz-box-shadow: 5px 5px 10px 2px #222;
   box-shadow: 5px 5px 10px 2px #222;
